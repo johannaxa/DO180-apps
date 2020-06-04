@@ -5,8 +5,11 @@
   "main": "server.js",
   "author": "Red Hat Training",
   "license": "ASL",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
-    "express": "4.20",
-    "html-errors": "latest"
+    "express": "4.17.1",
+    "html-errors": "1.0.1"
   }
 }
